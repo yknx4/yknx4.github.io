@@ -1,0 +1,15 @@
+.jumbotron{
+    margin-top:10%;
+        position:relative;
+    padding-bottom:12%;
+    
+}
+.img_top{
+    margin-bottom:5%;
+}
+.btn-bot {
+    margin:1%;
+  display: inline-block;
+  float: none;
+    border:0px;
+}
