@@ -1,8 +1,8 @@
  var client_id = "561afb52588d69d463d5dce8";
  var sales_path = "http://sales-yknx4.rhcloud.com/sale?client_id=";
- var client_path = "http://sales-yknx4.rhcloud.com/client";
- var payment_path = "http://sales-yknx4.rhcloud.com/payment";
- var product_path = "http://sales-yknx4.rhcloud.com/product";
+ var client_path = "http://sales-yknx4.rhcloud.com/client?";
+ var payment_path = "http://sales-yknx4.rhcloud.com/payment?";
+ var product_path = "http://sales-yknx4.rhcloud.com/product?";
  var sales_data;
  var client_data;
  var payment_data;
