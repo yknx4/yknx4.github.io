@@ -127,8 +127,9 @@ function printWorld() {
         for (var y = 0; y < alto; y++) {
             if (mundo[x][y]) {
                 ctx.fillRect(x * factor, y * factor, factor, factor);
-                ctx.strokeRect(x * factor, y * factor, factor, factor);
+                
             }
+            ctx.strokeRect(x * factor, y * factor, factor, factor);
         }
     }
 
