@@ -166,5 +166,5 @@ function gameCycle() {
 $(document).ready(function () {
     console.log("Starting game");
     randomInitialize();
-    setInterval(gameCycle, 1000);
+    setInterval(gameCycle, 500);
 });
