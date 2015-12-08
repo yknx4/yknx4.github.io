@@ -1,6 +1,7 @@
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var factor = 10;
+var prob = .2;
 
 console.log(canvas.width);
 console.log(canvas.height);
@@ -127,7 +128,6 @@ function printWorld() {
         for (var y = 0; y < alto; y++) {
             if (mundo[x][y]) {
                 ctx.fillRect(x * factor, y * factor, factor, factor);
-                
             }
             ctx.strokeRect(x * factor, y * factor, factor, factor);
         }
@@ -140,7 +140,7 @@ function randomInitialize() {
     console.log("Initializing world randomly");
     for (var x = 0; x < ancho; x++) {
         for (var y = 0; y < alto; y++) {
-            if (Math.random() > .9)
+            if (Math.random() > (1-prob))
                 mundo[x][y] = true;
         }
     }
@@ -167,5 +167,5 @@ function gameCycle() {
 $(document).ready(function () {
     console.log("Starting game");
     randomInitialize();
-    setInterval(gameCycle, 500);
+    setInterval(gameCycle, 400);
 });
