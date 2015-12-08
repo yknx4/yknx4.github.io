@@ -123,7 +123,7 @@ function printWorld() {
 
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.strokeStyle = 'white';
+    ctx.strokeStyle = 'gray';
     for (var x = 0; x < ancho; x++) {
         for (var y = 0; y < alto; y++) {
             if (mundo[x][y]) {
