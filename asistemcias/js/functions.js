@@ -1,3 +1,8 @@
+function getToken(){
+  return "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NWZmMGY1NmFjODcyZDI0NDJiNTcwNjQiLCJuYW1lIjoiSm9yZ2UgQWxlamFuZHJvIEZpZ3Vlcm9hIFDDqXJleiIsInVzZXIiOiJ5a254NCIsImltYWdlIjoiaHR0cDovL2xvcmVtcGl4ZWwuY29tLzI1Ni8yNTYvZmFzaGlvbi8iLCJjcmVhdGVkIjoxNDQyNzc4OTQzNjM3LCJtYXN0ZXIiOnRydWUsInNlZWQiOjgzMzI1MDExMSwiaWF0IjoxNDU2ODcxOTg4fQ.L_gnhl6XO4MkBWvaq_cbAKT9ycGhgPY_bkWxrTnF_eQ";
+}
+
+
 function getUrlParameter(sParam) {
     var sPageURL = decodeURIComponent(window.location.search.substring(1)),
         sURLVariables = sPageURL.split('&'),
@@ -95,5 +100,5 @@ function generateSaleHtml(sale) {
                     <br><small>Total: $156.03</small></div>
             </div>
         </div>
-    
+
 */
