@@ -14,6 +14,7 @@
  function loadClubs(data){
    console.log('Loading clubs');
    clubs_data = data;
+   console.log(data);
    console.log('Populating club options');
    var options = $("#club_select");
    $.each(data, function() {
