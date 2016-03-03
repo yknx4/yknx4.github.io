@@ -131,6 +131,7 @@ function addAttendance(){
 function onAttendance(data){
   console.log('Attendance response');
   console.log(data);
+  alert('Asistencia añadida');
 }
 
 function onAttendanceFail(data){
@@ -144,6 +145,7 @@ function onRegister(data){
   students_data.push(data);
   txtAccountReg.val('');
   txtName.val('');
+  alert('Registrado con Exito');
 }
 
 function onRegisterFail(data){
