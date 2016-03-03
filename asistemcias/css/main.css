@@ -46,14 +46,13 @@ h1 {
 
 
 
+@media (min-width: 768px)
+.form-inline .form-control {
+    //old bootstrap    
+    display: inline-block;
 
-
-
-
-
-
-
-
-
-
-
+    // new bootstrap
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
