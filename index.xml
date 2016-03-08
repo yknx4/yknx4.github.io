@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yknx Software</title>
-    <link>http://yknx4.github.io/</link>
+    <link>//yknx4.github.io/</link>
     <description>Recent content on Yknx Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://yknx4.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//yknx4.github.io/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
