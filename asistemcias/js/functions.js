@@ -35,7 +35,7 @@ function Attendance(student_id, club_id, partial){
   this.student_id = student_id;
   this.club_id = club_id;
   this.user_id = "55ff0ff4ac872d2442b57067";
-  this.partial =  partial;
+  this.partial =  parseInt(partial);
   this.date = Date.now();
 }
 
